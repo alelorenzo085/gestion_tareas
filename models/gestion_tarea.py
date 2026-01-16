@@ -17,3 +17,8 @@ class GestionTarea(models.Model):
         ('1', 'Media'),
         ('2', 'Alta'),
     ], string='Prioridad', default='1')
+
+    @api.onchange('state')
+    def _onchange_state(self):
+        if self.state == 'done':
+            self.priority = '0'  # Baja prioridad si está hecho
