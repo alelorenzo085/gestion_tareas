@@ -4,7 +4,7 @@
  'version': '1.0',
  'summary': 'Módulo para gestionar tareas individuales de los empleados',
  'category': 'Productivity',
- 'author': 'Paco Navas',
+ 'author': 'Alejandro Lorenzo',
  'website': 'https://tuweb.com',
  'license': 'LGPL-3',
  'depends': ['base', 'mail'],
