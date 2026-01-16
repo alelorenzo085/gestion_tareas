@@ -1,10 +1,9 @@
-# Archivo de manifiesto para el módulo de gestión de tareas en Odoo
 {
     'name': 'Gestión de Tareas',
     'version': '1.0',
     'summary': 'Módulo para gestionar tareas individuales de los empleados',
     'category': 'Productivity',
-    'author': 'Alejandro Lorenzo',
+    'author': 'David Márquez',
     'website': 'https://tuweb.com',
     'license': 'LGPL-3',
     'depends': ['base', 'mail'],
@@ -22,7 +21,7 @@
     'installable': True,
     'auto_install': False,
     'description': """
-        Módulo de Odoo para la gestión de tareas asignadas a empleados,
+        Módulo de Odoo para la gestión de tareas asignados a empleados,
         incluyendo vistas Kanban y formulario detallado.
     """,
 }
