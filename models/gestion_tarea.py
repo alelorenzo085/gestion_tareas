@@ -5,7 +5,7 @@ class GestionTarea(models.Model):
     _description = 'Tarea de Empleado'
     name = fields.Char(string='Nombre de la Tarea', required=True)
     description = fields.Text(string='Descripción')
-    assigned_to = fields.Many2one('hr.employee', string='Empleado Asignado')
+    assigned_to = fields.Many2one('res.users', string='Usuario Asignado')
     deadline = fields.Date(string='Fecha Límite')
     state = fields.Selection([
         ('draft', 'Borrador'),
