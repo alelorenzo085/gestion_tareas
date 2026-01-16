@@ -1,2 +1,3 @@
-# gestion_tareas
-Laboratorio n.º 52 para el módulo de Sistemas de Gestión Empresarial del CFGS DAM
+# Laboratorio 52 - Creación de módulo gestión de tareas pesonales
+
+El siguiente proyecto tiene como objetivo desarrollar un nuevo módulo para odoo que gestione las tareas individuales de los empleados de una empresa genérica
