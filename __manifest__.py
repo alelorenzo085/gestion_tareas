@@ -13,6 +13,11 @@
         'views/gestion_tarea_views.xml',
         'security/ir.model.access.csv',
     ],
+    'assets': {
+        'web.assets_backend': [
+            '/gestion_tareas/static/src/css/styles.css',
+        ],
+    },
     'application': True,
     'installable': True,
     'auto_install': False,
