@@ -7,7 +7,7 @@
     'author': 'Alejandro Lorenzo',
     'website': 'https://tuweb.com',
     'license': 'LGPL-3',
-    'depends': ['base', 'mail', 'hr'],
+    'depends': ['base', 'mail'],
     'icon': '/gestion_tareas/static/description/icon52.png',
     'data': [
         'views/gestion_tarea_views.xml',
