@@ -3,7 +3,7 @@
     'version': '1.0',
     'summary': 'Módulo para gestionar tareas individuales de los empleados',
     'category': 'Productivity',
-    'author': 'David Márquez',
+    'author': 'Alejandro Lorenzo',
     'website': 'https://tuweb.com',
     'license': 'LGPL-3',
     'depends': ['base', 'mail'],
